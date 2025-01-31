@@ -68,3 +68,19 @@ body{
     margin-right: 10px;
 }
 
+svg path{
+    fill: rgb(180, 180, 180);
+    stroke: rgb(82, 82, 82);
+}
+
+
+
+#CA, #MX, #US, #BR, #CR, #AU, #BD, #CN, #ID, #JP, #MY, #PH, #SG, #TW, #TH, #KR, #NG, #ZA, #KE, #AT{
+    fill: rgb(52, 152, 179);
+}
+svg path:hover,
+#CA:hover, #MX:hover, #US:hover, #BR:hover, #CR:hover, #AU:hover, #BD:hover, #CN:hover, #ID:hover, #JP:hover, #MY:hover, #PH:hover, #SG:hover, #TW:hover, #TH:hover, #KR:hover, #NG:hover, #ZA:hover, #KE:hover, #AT:hover {
+    fill: rgb(53, 26, 85);
+    transition: 0.6s;
+    cursor: pointer;
+}
