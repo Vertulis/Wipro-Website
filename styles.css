@@ -30,7 +30,7 @@ body {
 
 .side-nav li a:hover {
     color: rgb(255, 255, 255);
-    background-color: rgb(53, 26, 85);
+    background-color: rgb(52, 152, 179);
 }
 
 .side-nav li {
@@ -49,8 +49,13 @@ body {
 }
 .nav-social-media-links a{
     color: rgb(53, 26, 85);
-
+    transition: 0.3s;
 }
+.nav-social-media-links a:hover{
+    color: rgb(52, 152, 179);
+    transition: 0.3s;
+}
+
 
 .content-container {
     margin-left: 200px;
@@ -98,6 +103,7 @@ section {
 /* KEY SERVICES SECTION */
 #key-services-section {
     height: max-content;
+    padding: 20px;
 }
 .key-services-container {
     display: grid;
