@@ -71,10 +71,11 @@ section {
 #hero-section {
     text-align: center;
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/pexels-pavel-danilyuk-8438918-removebg-preview(1).png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/pexels-bradleyhook-123335.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 #hero-section img {
@@ -90,14 +91,6 @@ section {
 #hero-section p {
     font-weight: 600;
     margin: 0 10%;
-}
-
-#language-btn {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    margin: 10px 20px;
 }
 
 /* KEY SERVICES SECTION */
