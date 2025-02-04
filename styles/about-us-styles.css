@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .content-container{
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+h2{
+    color: rgb(53, 26, 85);
+    font-size: 2em;
+}
+h3{
+    color: rgb(53, 26, 85);
+    font-size: 1.5em;
+}
+h4{
+    color: rgb(53, 26, 85);
+    font-size: 1.3em;
+}
+h5{
+    color: rgb(53, 26, 85);
+    font-size: 1.1em;
+}
+
+.leadership-banner{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/pexels-thirdman-7651924.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.leadership-banner-text{
+    padding: 20px;
+    color: white;
+    text-align: left;
+    font-weight: 700;
+}
+
+.leaders-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+.leader{
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.leader:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+
+.leader img{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.leader h5, .leader p{
+    margin-left: 10px;
+}
+
+/* .core-values-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+} */
+.core-value{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.core-value img{
+    width: 100%;
+}
+.core-value p{
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .leadership-banner{
+        height: 500px;
+    }
+    .core-value{
+      width: 100%;
+    }
+    .leaders-container{
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+    }
+    .leader{
+        width: 100%;
+        height: 100%;
+    }
+  }
