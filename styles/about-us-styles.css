@@ -100,7 +100,10 @@ h5{
     width: 100%;
 }
 .core-value p{
+    font-size: 1.2em;
     text-align: center;
+    font-weight: 600;
+    color: rgb(53, 26, 85);
 }
 
 @media screen and (max-width: 500px) {

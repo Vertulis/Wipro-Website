@@ -1,4 +1,10 @@
+html {
+  box-sizing: border-box;
+}
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 h2{
     color: rgb(53, 26, 85);
     margin: 10px;

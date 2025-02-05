@@ -61,16 +61,11 @@ body {
 .content-container {
     margin-left: 200px;
     box-sizing: border-box;
-    height: 1000px;
     width: calc(100% - 200px);
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: rgb(53, 26, 85);
-}
-
-section {
-    height: 100%;
 }
 
 @media screen and (max-width: 700px) {
