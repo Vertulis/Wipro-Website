@@ -1,7 +1,7 @@
 #hero-section {
     text-align: center;
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/pexels-bradleyhook-123335.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pexels-bradleyhook-123335.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,7 +38,7 @@
 
 .key-service {
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 .key-service img {
     display: block;
@@ -63,7 +63,7 @@
 .testimonial {
     display: flex;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     padding: 16px;
     margin: 16px 0;
     max-width: 1000px;
