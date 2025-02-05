@@ -1,8 +1,11 @@
-function changeLanguage(language) {
-    // Implement language change logic here
-    console.log("Language changed to: " + language);
-    document.getElementById('language-btn').innerText = language.toUpperCase();
-}
+
+document.getElementById('ZA').addEventListener('mouseover', function() {
+    document.getElementById('addresses').style.display = 'block';
+});
+
+document.getElementById('ZA').addEventListener('mouseleave', function() {
+    document.getElementById('addresses').style.display = 'none';
+});
 
 $(function(){
     $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });

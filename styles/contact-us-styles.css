@@ -72,6 +72,20 @@ input[type=text],input[type=email], select, textarea {
     }
 }
 
+#addresses {
+  display: none; /* Initially hidden */
+  position: fixed; /* Stays in the same place even when scrolling */
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -60%); /* Centering trick */
+  background: white; /* Background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensures it appears above other elements */
+}
+
+
 svg{
     display: block;
     margin: 0 auto;
@@ -93,18 +107,18 @@ svg path:hover,
     cursor: pointer;
 }
 
-.social-media-links {
+social-media-links {
     display: grid;
     column-gap: 50px;
     grid-template-columns: auto auto auto auto;
     padding: 10px;
     justify-content: center;
 }
-.social-media-links a {
+social-media-links a {
     color: rgb(53, 26, 85);
     transition: 0.3s;
 }
-.social-media-links a:hover {
+social-media-links a:hover {
     color: rgb(52, 152, 179);
     transition: 0.3s;
 }
