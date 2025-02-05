@@ -107,18 +107,18 @@ svg path:hover,
     cursor: pointer;
 }
 
-social-media-links {
+.social-media-links {
     display: grid;
     column-gap: 50px;
     grid-template-columns: auto auto auto auto;
     padding: 10px;
     justify-content: center;
 }
-social-media-links a {
+.social-media-links a {
     color: rgb(53, 26, 85);
     transition: 0.3s;
 }
-social-media-links a:hover {
+.social-media-links a:hover {
     color: rgb(52, 152, 179);
     transition: 0.3s;
 }
